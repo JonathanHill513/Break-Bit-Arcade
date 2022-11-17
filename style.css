@@ -1,0 +1,72 @@
+html{
+    background-color: black;
+    color: white;
+    scroll-behavior: smooth;
+}
+.container{
+    border: 1px blue groove;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 0px 20%;
+}
+.container img{
+    display: block;
+    max-width: 250px;
+    margin: 0px auto;
+}
+.heading{
+text-align: center;
+
+}
+.bodytext{
+    text-align: left;
+}
+.gamebodytext{
+    width: 100%;
+}
+.gamelogo{
+width: 100% !important;
+height: 80%;
+}
+#gamethumbnail{
+    display:flex;
+    width: 100%;
+    overflow-x: auto;
+    /* margin: 0px 10%; */
+
+}
+.gamethumbnail{
+    border: 1px blue groove;
+    border-radius: 25px;
+    padding: 10px;
+    width: 25%;
+    margin: 10px;
+    padding: 10px;
+    min-width: 25%;
+}
+.gamethumbnail a{
+    width: 100%;
+}
+.gamethumbnail span{
+    width: 100%;
+    position: relative;
+}
+.gamethumbnaillist{
+
+}
+.gamecontainer img{
+    height: 150px;
+}
+.gamecontainer{
+    display: block;
+    height: 300px;
+    overflow-y: hidden;
+    transition: 1s;
+}
+.gamecontainer:hover{
+    height: auto;
+}
+/* @keyframes stars{
+    0%{background-position: center ;}
+    100%{background-position: bottom;}
+} */
